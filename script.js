@@ -1,13 +1,13 @@
 // =================|Example 01|=============
-class Parents {
-    hello() {
-        console.log("Hello");
+// class Parents {
+//     hello() {
+//         console.log("Hello");
 
-    };
-}
-class Child extends Parents { }
-let obj = new Child();
-obj.hello();
+//     };
+// }
+// class Child extends Parents { }
+// let obj = new Child();
+// obj.hello();
 
 // =================|Example 02|=============
 class Person {
@@ -24,4 +24,17 @@ class Person {
         console.log("Nothing work just eat");
         
     };
-}
+};
+
+class Engineer extends Person{
+    work(){
+        console.log("Hard Worker");
+        
+    };
+    sleep(){
+        console.log("No Need Sleep");
+        
+    };
+};
+
+ 
