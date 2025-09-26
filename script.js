@@ -15,26 +15,48 @@ class Person {
         console.log("Just eat and eat");
 
     };
-    sleep(){
+    sleep() {
         console.log("No sleep just eat");
-        
+
     }
 
-    work(){
+    work() {
         console.log("Nothing work just eat");
-        
+
     };
 };
 
-class Engineer extends Person{
-    work(){
-        console.log("Hard Worker");
-        
+class Engineer extends Person {
+    eat() {
+        console.log("All Halal Food Need");
+
     };
-    sleep(){
+    sleep() {
         console.log("No Need Sleep");
-        
+
+    };
+    work() {
+        console.log("Hard Worker");
+
     };
 };
+class Doctor extends Person {
+    eat() {
+        console.log("All Halal Food Need");
 
- 
+    };
+
+    sleep() {
+        console.log("No Need Sleep Just Focus Money");
+
+    };
+    work() {
+        console.log("Cuting Body and Earn Money");
+
+    };
+}
+let EngArafatObj = new Engineer();
+EngArafatObj.sleep();
+let DrRohitObj = new Doctor();
+
+DrRohitObj.work();
