@@ -5,7 +5,23 @@ class Parents {
 
     };
 }
-class Child extends Parents {}
+class Child extends Parents { }
 let obj = new Child();
 obj.hello();
 
+// =================|Example 02|=============
+class Person {
+    eat() {
+        console.log("Just eat and eat");
+
+    };
+    sleep(){
+        console.log("No sleep just eat");
+        
+    }
+
+    work(){
+        console.log("Nothing work just eat");
+        
+    };
+}
