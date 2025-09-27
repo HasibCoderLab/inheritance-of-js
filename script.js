@@ -11,6 +11,9 @@
 
 // =================|Example 02|=============
 class Person {
+    constructor(){
+        this.projati = "Homo"
+    }
     eat() {
         console.log("Just eat and eat");
 
